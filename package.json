@@ -1,0 +1,16 @@
+{
+  "name": "lab-express-apache",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "lab-express-apache": "file:"
+  }
+}
