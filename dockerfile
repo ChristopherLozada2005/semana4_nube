@@ -1,8 +1,7 @@
-# Usar imagen base de Node.js
 FROM node:18
-LABEL maintainer="johan.lopez@tecsup.edu.pe"
-RUN git clone https://github.com/RageJohan/LAB4_Cloud.git
-WORKDIR /LAB4_Cloud
+LABEL maintainer="christopher.lozada@tecsup.edu.pe"
+RUN git clone https://github.com/ChristopherLozada2005/semana4_nube.git
+WORKDIR /lab04
 RUN npm install
 EXPOSE 5000
 
